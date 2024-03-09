@@ -17,9 +17,8 @@ root.render(
 // Learn more about service workers: https://cra.link/PWA
 serviceWorkerRegistration.register();
 
-navigator.serviceWorker.addEventListener('controllerchange', function(event) {
-  // Ваш код для обработки изменения контролирующего service worker'а
-  console.log('Controller changed');
+navigator.serviceWorker.addEventListener('controllerchange', () => {
+  window.location.reload();
 });
 
 // If you want to start measuring performance in your app, pass a function
