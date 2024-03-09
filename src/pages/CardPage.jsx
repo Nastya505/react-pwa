@@ -6,6 +6,7 @@ const CardPage = () => {
     <div style={{textAlign: 'center'}}>Это страница карточки</div>
 
     <h2>Карточка №1</h2>
+    <p>Описание карточки 1</p>
     </>
   )
 }
